@@ -11,6 +11,7 @@ body{
     min-height: 100vh;
     background-size: cover;
     background-attachment: fixed;
+    padding-bottom: 100px;
 
 }
 .dark-overlay{
@@ -29,10 +30,11 @@ body{
 
 @media (max-width: 992px){
     .home-inner{
-        padding: 150px;
+        padding-bottom: 150px;
     }
 }
 .info-head-section{
+    top: 0;
     background-color:#03fc7b;
 }
 .info2-head-section{
