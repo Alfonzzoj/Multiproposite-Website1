@@ -1,4 +1,7 @@
-
+body{
+    background-color: #333;
+    color: #fff;
+}
 .navbar{
     border-bottom: #03fc7b 3px solid;
     opacity: .9;
@@ -26,11 +29,14 @@
 
 @media (max-width: 992px){
     .home-inner{
-        padding: 100px;
+        padding: 150px;
     }
 }
 .info-head-section{
     background-color:#03fc7b;
+}
+.info2-head-section{
+    background-color: #363e98;
 }
 .font-light{
     color: white;
