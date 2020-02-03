@@ -1,0 +1,37 @@
+
+.navbar{
+    border-bottom: #03fc7b 3px solid;
+    opacity: .9;
+}
+#home-section{
+    background: url(img/bg.jpg) no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.dark-overlay{
+    background-color: rgb(0,0, 0,.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-width: 100%;
+    bottom: 0;
+}
+
+.home-inner{
+    padding: 200px;
+}
+
+@media (max-width: 992px){
+    .home-inner{
+        padding: 100px;
+    }
+}
+.info-head-section{
+    background-color:#03fc7b;
+}
+.font-light{
+    color: white;
+}
